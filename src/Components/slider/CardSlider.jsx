@@ -74,10 +74,10 @@ const CardSlider = () => {
       <div className="w-3/4 m-auto ">
            <Slider {...settings} >
           {items.map((item)=>(
-            <div className="relative bg-[#1C1816] w-[180px] h-[190px] mx-auto px-2 py-2 my-8 rounded-tl-[50%] rounded-tr-[50%] rounded-bl-[50%] hover:translate-y-[-14px] duration-200 ease-in-out hover:cursor-pointer">
-              <img src={item.img} alt=""  className="w-44"/>
-              <p className="px-6 text-white">{item.name}</p>
-              <p className="w-12 h-1 bg-red-500 mx-10"></p>
+            <div className="relative bg-[#1C1816] md:w-[180px] h-[190px] my-8 rounded-tl-[50%] rounded-tr-[50%] rounded-bl-[50%] hover:translate-y-[-14px] duration-200 ease-in-out hover:cursor-pointer">
+              <img src={item.img} alt=""  className="w-[60%]  md:w-full block m-auto px-2 md:py-2"/>
+              <p className="md:px-6 text-center text-white">{item.name}</p>
+              <p className="w-12 h-1 block mx-auto bg-red-500 "></p>
             </div>
           ))}
           </Slider>

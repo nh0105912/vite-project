@@ -13,3 +13,14 @@
 .slick-slide >div{
     margin: 0 10px;
 }
+.scrollbar-thin-gray::-webkit-scrollbar {
+  height: 6px;               
+}
+.scrollbar-thin-gray::-webkit-scrollbar-thumb {
+  background: #080808;       
+  border-radius: 9999px;      
+}
+.scrollbar-thin-gray {
+  scrollbar-width: thin;
+  scrollbar-color: #1c1c1d transparent;
+}
